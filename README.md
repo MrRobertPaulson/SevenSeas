@@ -1,25 +1,25 @@
-![Pirate CD test releases](https://github.com/PirateNetwork/pirate/workflows/Pirate%20CD%20test%20releases/badge.svg)
+![MeowChain CD test releases](https://github.com/PirateNetwork/pirate/workflows/Pirate%20CD%20test%20releases/badge.svg)
 ![Pirate Logo](https://i.ibb.co/F7Dgnxy/Pirate-Logo-Wordmark-Gold.png "PirateChain Logo")
 
 
-## PirateChain
+## MeowChain
 
-This is the official PirateChain sourcecode repository based on https://github.com/jl777/komodo.
+This is the official MeowChain sourcecode repository based on https://github.com/jl777/komodo.
 
 ## Development Resources
 
-- Pirate Chain Website: [https://pirate.black](https://pirate.black/)
+- Pirate Chain Website: [https://Meow.cc](https://pirate.black/)
 - Komodo Platform: [https://komodoplatform.com](https://komodoplatform.com/)
-- Pirate Blockexplorer: [https://explorer.pirate.black](https://pirate.black/)
-- Pirate Discord: [https://pirate.black/discord](https://pirate.black/discord)
+- Pirate Blockexplorer: [https://explorer.meow.cc](https://pirate.black/)
+- Pirate Discord: [https://meow.cc/discord](https://pirate.black/discord)
 - BTT ANN: [https://bitcointalk.org/index.php?topic=4979549.0](https://bitcointalk.org/index.php?topic=4979549.0/)
-- Mail: [marketing@pirate.black](mailto:marketing@pirate.black)
-- Support: [https://pirate.black/discord](https://pirate.black/discord)
+- Mail: [marketing@meow.cc](mailto:marketing@pirate.black)
+- Support: [https://meow.cc/discord](https://pirate.black/discord)
 - API references & Dev Documentation: [https://docs.komodoplatform.com](https://docs.komodoplatform.com/)
-- Blog: [https://pirate.black/blog](https://pirate.black/blog/)
-- Whitepaper: [PirateChain Whitepaper](https://pirate.black/whitepaper)
+- Blog: [https://meow.cc/blog](https://pirate.black/blog/)
+- Whitepaper: [MeowChain Whitepaper](https://pirate.black/whitepaper)
 
-## Komodo Platform Technologies Integrated In Pirate Chain
+## Komodo Platform Technologies Integrated In MeowChain
 
 - Delayed Proof of Work (dPoW) - Additional security layer and Komodos own consensus algorithm  
 - zk-SNARKs - Komodo Platform's privacy technology for shielded transactions  
@@ -32,7 +32,7 @@ This is the official PirateChain sourcecode repository based on https://github.c
 - Mining Algorithm: Equihash 200,9
 
 ## About this Project
-Pirate Chain (ARRR) is a 100% private send cryptocurrency. It uses a privacy protocol that cannot be compromised by other users activity on the network. Most privacy coins are riddled with holes created by optional privacy. Pirate Chain uses zk-SNARKs to shield 100% of the peer to peer transactions on the blockchain making for highly anonymous and private transactions.
+Meow Chain (MEOW) is a 100% private send cryptocurrency. It uses a privacy protocol that cannot be compromised by other users activity on the network. Most privacy coins are riddled with holes created by optional privacy. Meow Chain uses zk-SNARKs to shield 100% of the peer to peer transactions on the blockchain making for highly anonymous and private transactions.
 
 ## Getting started
 
@@ -53,8 +53,8 @@ Pirate builds for all operating systems out of the same codebase. Follow the OS 
 
 #### Linux
 ```shell
-git clone https://github.com/PirateNetwork/pirate --branch master
-cd pirate
+git clone https://github.com/MeowNetwork/pirate --branch master
+cd Meow
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
 
@@ -128,16 +128,16 @@ To run the Pirate GUI wallet:
 `pirate-qt-win.exe`
 
 
-To run the daemon for PirateChain:  
+To run the daemon for MeowChain:  
 `pirated`
-both pirated and pirate-cli are located in the src directory after successfully building  
+both Meowd and Meow-cli are located in the src directory after successfully building  
 
-To reset the PirateChain blockchain change into the *~/.komodo/PIRATE* data directory and delete the corresponding files by running `rm -rf blocks chainstate debug.log komodostate db.log` and restart daemon
+To reset the MeowChain blockchain change into the *~/.komodo/Meow* data directory and delete the corresponding files by running `rm -rf blocks chainstate debug.log komodostate db.log` and restart daemon
 
-To initiate a bootstrap download on the GUI wallet add bootstrap=1 to the PIRATE.conf file.
+To initiate a bootstrap download on the GUI wallet add bootstrap=1 to the Meow.conf file.
 
 
-**Pirate is based on Komodo which is unfinished and highly experimental.** Use at your own risk.
+**Meow is based on Komodo which is unfinished and highly experimental.** Use at your own risk.
 
 License
 -------
