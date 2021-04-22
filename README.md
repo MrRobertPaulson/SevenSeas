@@ -1,5 +1,5 @@
 
-![Meow Logo](http://www.arizonapetvet.com/images/cat-meow.jpg "MeowChain Logo")
+![Meow Logo](https://github.com/catslovedogs/MEOW/blob/master/MEOW%20BANNER-1.png "MeowChain Logo")
 
 
 ## MeowChain
