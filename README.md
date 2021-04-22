@@ -1,4 +1,4 @@
-![MeowChain CD test releases](https://github.com/PirateNetwork/pirate/workflows/Pirate%20CD%20test%20releases/badge.svg)
+
 ![Meow Logo](http://www.arizonapetvet.com/images/cat-meow.jpg "MeowChain Logo")
 
 
@@ -8,16 +8,16 @@ This is the official MeowChain sourcecode repository based on https://github.com
 
 ## Development Resources
 
-- Pirate Chain Website: [https://Meow.cc](https://pirate.black/)
+- Meow Chain Website: [https://meow.cc](https://pirate.black/)
 - Komodo Platform: [https://komodoplatform.com](https://komodoplatform.com/)
-- Pirate Blockexplorer: [https://explorer.meow.cc](https://pirate.black/)
-- Pirate Discord: [https://meow.cc/discord](https://pirate.black/discord)
-- BTT ANN: [https://bitcointalk.org/index.php?topic=4979549.0](https://bitcointalk.org/index.php?topic=4979549.0/)
-- Mail: [marketing@meow.cc](mailto:marketing@pirate.black)
-- Support: [https://meow.cc/discord](https://pirate.black/discord)
+- Meow Blockexplorer: [https://explorer.meow.cc](https://pirate.black/)
+- Meow Discord: [https://meow.cc/discord](https://pirate.black/discord)
+- BTT ANN: [https://bitcointalk.org/
+- Mail: [marketing@meow.cc](mailto:marketing@Meow.cc)
+- Support: [https://meow.cc/discord](https://meow.cc/discord)
 - API references & Dev Documentation: [https://docs.komodoplatform.com](https://docs.komodoplatform.com/)
-- Blog: [https://meow.cc/blog](https://pirate.black/blog/)
-- Whitepaper: [MeowChain Whitepaper](https://pirate.black/whitepaper)
+- Blog: [https://meow.cc/blog](https://meow.cc/blog/)
+- Whitepaper: [MeowChain Whitepaper](https://meow.cc/whitepaper)
 
 ## Komodo Platform Technologies Integrated In MeowChain
 
@@ -26,9 +26,9 @@ This is the official MeowChain sourcecode repository based on https://github.com
 
 
 ## Tech Specification
-- Max Supply: 200 million ARRR
+- Max Supply: 200 million MEOW
 - Block Time: 60s
-- Block Reward: 256 ARRR
+- Block Reward: 256 MEOW
 - Mining Algorithm: Equihash 200,9
 
 ## About this Project
@@ -44,7 +44,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool libncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libqrencode-dev libdb++-dev ntp ntpdate nano software-properties-common curl libevent-dev libcurl4-gnutls-dev cmake clang libsodium-dev -y
 ```
 
-### Build Pirate
+### Build Meow
 
 This software is based on zcash and considered experimental and is continuously undergoing heavy development.
 
@@ -53,7 +53,7 @@ Pirate builds for all operating systems out of the same codebase. Follow the OS 
 
 #### Linux
 ```shell
-git clone https://github.com/MeowNetwork/pirate --branch master
+git clone https://github.com/MeowNetwork/Meow --branch master
 cd Meow
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
@@ -101,8 +101,8 @@ sudo update-alternatives --config x86_64-w64-mingw32-gcc
 sudo update-alternatives --config x86_64-w64-mingw32-g++
 # (configure to use POSIX variant)
 
-git clone https://github.com/PirateNetwork/pirate --branch master
-cd pirate
+git clone https://github.com/MeowNetwork/meow --branch master
+cd meow
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
 
@@ -114,22 +114,22 @@ cd pirate
 #For qt GUI binaries
 ./zcutil/build-qt-win.sh -j8
 ```
-**Pirate is experimental and a work-in-progress.** Use at your own risk.
+**Meow is experimental and a work-in-progress.** Use at your own risk.
 
-To run the Pirate GUI wallet:
+To run the Meow GUI wallet:
 
 **Linux**
-`pirate-qt-linux`
+`meow-qt-linux`
 
 **OSX**
-`pirate-qt-mac`
+`meow-qt-mac`
 
 **Windows**
-`pirate-qt-win.exe`
+`meow-qt-win.exe`
 
 
 To run the daemon for MeowChain:  
-`pirated`
+`meowd`
 both Meowd and Meow-cli are located in the src directory after successfully building  
 
 To reset the MeowChain blockchain change into the *~/.komodo/Meow* data directory and delete the corresponding files by running `rm -rf blocks chainstate debug.log komodostate db.log` and restart daemon
