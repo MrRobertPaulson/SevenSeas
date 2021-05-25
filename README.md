@@ -1,38 +1,38 @@
 
-![Meow Logo](https://github.com/catslovedogs/MEOW/blob/master/MEOW%20BANNER-1.png "MeowChain Logo")
+![SevenSeas Logo](https://github.com/catslovedogs/SevenSeas/blob/master/SevenSeas%20BANNER-1.png "SevenSeas Logo")
 
 
-## MeowChain
+## SevenSeas
 
-This is the official MeowChain sourcecode repository based on https://github.com/jl777/komodo.
+This is the official SevenSeas sourcecode repository based on https://github.com/jl777/komodo.
 
 ## Development Resources
 
-- Meow Chain Website: [https://meow.cc](https://pirate.black/)
+- SevenSeas Chain Website: [https://SevenSeas.cc](https://pirate.black/)
 - Komodo Platform: [https://komodoplatform.com](https://komodoplatform.com/)
-- Meow Blockexplorer: [https://explorer.meow.cc](https://pirate.black/)
-- Meow Discord: [https://meow.cc/discord](https://pirate.black/discord)
+- SevenSeas Blockexplorer: [https://explorer.SevenSeas.cc](https://pirate.black/)
+- SevenSeas Discord: [https://SevenSeas.cc/discord](https://pirate.black/discord)
 - BTT ANN: [https://bitcointalk.org/
-- Mail: [marketing@meow.cc](mailto:marketing@Meow.cc)
-- Support: [https://meow.cc/discord](https://meow.cc/discord)
+- Mail: [marketing@SevenSeas.cc](mailto:marketing@SevenSeas.cc)
+- Support: [https://SevenSeas.cc/discord](https://SevenSeas.cc/discord)
 - API references & Dev Documentation: [https://docs.komodoplatform.com](https://docs.komodoplatform.com/)
-- Blog: [https://meow.cc/blog](https://meow.cc/blog/)
-- Whitepaper: [MeowChain Whitepaper](https://meow.cc/whitepaper)
+- Blog: [https://SevenSeas.cc/blog](https://SevenSeas.cc/blog/)
+- Whitepaper: [SevenSeas Whitepaper](https://SevenSeas.cc/whitepaper)
 
-## Komodo Platform Technologies Integrated In MeowChain
+## Komodo Platform Technologies Integrated In SevenSeas
 
 - Delayed Proof of Work (dPoW) - Additional security layer and Komodos own consensus algorithm  
 - zk-SNARKs - Komodo Platform's privacy technology for shielded transactions  
 
 
 ## Tech Specification
-- Max Supply: 200 million MEOW
+- Max Supply: 200 million SevenSeas
 - Block Time: 60s
-- Block Reward: 256 MEOW
+- Block Reward: 256 SevenSeas
 - Mining Algorithm: Equihash 200,9
 
 ## About this Project
-Meow Chain (MEOW) is a 100% private send cryptocurrency. It uses a privacy protocol that cannot be compromised by other users activity on the network. Most privacy coins are riddled with holes created by optional privacy. Meow Chain uses zk-SNARKs to shield 100% of the peer to peer transactions on the blockchain making for highly anonymous and private transactions.
+SevenSeas Chain (SevenSeas) is a 100% private send cryptocurrency. It uses a privacy protocol that cannot be compromised by other users activity on the network. Most privacy coins are riddled with holes created by optional privacy. SevenSeas Chain uses zk-SNARKs to shield 100% of the peer to peer transactions on the blockchain making for highly anonymous and private transactions.
 
 ## Getting started
 
@@ -44,7 +44,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool libncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libqrencode-dev libdb++-dev ntp ntpdate nano software-properties-common curl libevent-dev libcurl4-gnutls-dev cmake clang libsodium-dev -y
 ```
 
-### Build Meow
+### Build SevenSeas
 
 This software is based on zcash and considered experimental and is continuously undergoing heavy development.
 
@@ -53,8 +53,8 @@ Pirate builds for all operating systems out of the same codebase. Follow the OS 
 
 #### Linux
 ```shell
-git clone https://github.com/MeowNetwork/Meow --branch master
-cd Meow
+git clone https://github.com/SevenSeasNetwork/SevenSeas --branch master
+cd SevenSeas
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
 
@@ -101,8 +101,8 @@ sudo update-alternatives --config x86_64-w64-mingw32-gcc
 sudo update-alternatives --config x86_64-w64-mingw32-g++
 # (configure to use POSIX variant)
 
-git clone https://github.com/MeowNetwork/meow --branch master
-cd meow
+git clone https://github.com/SevenSeasNetwork/SevenSeas --branch master
+cd SevenSeas
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
 
@@ -114,30 +114,30 @@ cd meow
 #For qt GUI binaries
 ./zcutil/build-qt-win.sh -j8
 ```
-**Meow is experimental and a work-in-progress.** Use at your own risk.
+**SevenSeas is experimental and a work-in-progress.** Use at your own risk.
 
-To run the Meow GUI wallet:
+To run the SevenSeas GUI wallet:
 
 **Linux**
-`meow-qt-linux`
+`SevenSeas-qt-linux`
 
 **OSX**
-`meow-qt-mac`
+`SevenSeas-qt-mac`
 
 **Windows**
-`meow-qt-win.exe`
+`SevenSeas-qt-win.exe`
 
 
-To run the daemon for MeowChain:  
-`meowd`
-both Meowd and Meow-cli are located in the src directory after successfully building  
+To run the daemon for SevenSeas:  
+`SevenSeasd`
+both SevenSeasd and SevenSeas-cli are located in the src directory after successfully building  
 
-To reset the MeowChain blockchain change into the *~/.komodo/Meow* data directory and delete the corresponding files by running `rm -rf blocks chainstate debug.log komodostate db.log` and restart daemon
+To reset the SevenSeas blockchain change into the *~/.komodo/SevenSeas* data directory and delete the corresponding files by running `rm -rf blocks chainstate debug.log komodostate db.log` and restart daemon
 
-To initiate a bootstrap download on the GUI wallet add bootstrap=1 to the Meow.conf file.
+To initiate a bootstrap download on the GUI wallet add bootstrap=1 to the SevenSeas.conf file.
 
 
-**Meow is based on Komodo which is unfinished and highly experimental.** Use at your own risk.
+**SevenSeas is based on Komodo which is unfinished and highly experimental.** Use at your own risk.
 
 License
 -------
