@@ -667,6 +667,7 @@ static const CRPCCommand vRPCCommands[] =
     { "wallet",             "zcsamplejoinsplit",      &zc_sample_joinsplit,    true  },
     { "wallet",             "z_listreceivedbyaddress",&z_listreceivedbyaddress,false },
     { "wallet",             "z_getbalance",           &z_getbalance,           false },
+    { "wallet",             "z_getbalances",          &z_getbalances,           false },
     { "wallet",             "z_gettotalbalance",      &z_gettotalbalance,      false },
     { "wallet",             "z_mergetoaddress",       &z_mergetoaddress,       false },
     { "wallet",             "z_sendmany",             &z_sendmany,             false },
@@ -906,8 +907,8 @@ std::string HelpExampleCli(const std::string& methodname, const std::string& arg
 {
     if ( ASSETCHAINS_SYMBOL[0] == 0 ) {
         return "> komodo-cli " + methodname + " " + args + "\n";
-    } else if ((strncmp(ASSETCHAINS_SYMBOL, "HUSH3", 5) == 0) ) {
-        return "> hush-cli " + methodname + " " + args + "\n";
+    } else if ((strncmp(ASSETCHAINS_SYMBOL, "PIRATE", 6) == 0) ) {
+        return "> pirate-cli " + methodname + " " + args + "\n";
     } else {
         return "> komodo-cli -ac_name=" + strprintf("%s", ASSETCHAINS_SYMBOL) + " " + methodname + " " + args + "\n";
     }
